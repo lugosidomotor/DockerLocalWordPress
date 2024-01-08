@@ -28,7 +28,7 @@ Easily set up a local development environment for your existing WordPress site u
 5. **Run**: In the project root, execute:
 
 ```
-docker-compose up -d && docker-compose exec wordpress prep.sh
+docker-compose up -d && docker exec -ti wordpress '/prep.sh'
 ```
 
 Access your site at `http://localhost` and the admin panel at `http://localhost/wp-admin`. 🌍
