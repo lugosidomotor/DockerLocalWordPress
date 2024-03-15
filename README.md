@@ -10,9 +10,6 @@ Easily set up a local development environment for your existing WordPress site u
 1. **WordPress Container**: 
    - **Volumes**:
      - `site/wp-content`: Place your production `wp-content` folder here. It includes themes, plugins, uploads, etc. 🎨
-     - `init/prep.sh`: Disables specific plugins and aligns `wp-content` ownership with the site. 🔒
-
-   - **Auto-generated**: `wp-config.php`.
 
 2. **Database (DB) Container**:
    - **Volumes**:
