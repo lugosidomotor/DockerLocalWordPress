@@ -18,7 +18,7 @@ Easily set up a local development environment for your existing WordPress site u
 
 ## Setup 🔧
 1. **Clone/Download**: Get the project files. 👨‍💻
-2. **Database Prep**: Create a `mysqldump` from your site, save as `mysqldumps/backup.sql.gz`. 🗃️
+2. **Database Prep**: Create a dump from the live database and save it as `mysqldumps/backup.sql.gz`. 🗃️
 3. **Content Prep**: Copy `wp-content` from your site to `site/wp-content`. 📂
 4. **Configuration**: Set variables in `.env`. 📝
 5. **Run**: In the project root, execute:
