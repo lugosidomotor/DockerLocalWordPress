@@ -13,7 +13,6 @@ Easily set up a local development environment for your existing WordPress site u
 
 2. **Database (DB) Container**:
    - **Volumes**:
-     - `database`: Stores MySQL files. 📁
      - `mysqldumps/backup.sql.gz`: Put your production database snapshot here. It's imported automatically on first run. 🔄
      - `init/migrate.sh`: URL migration script, runs automatically. 🌐
 
